@@ -95,7 +95,7 @@ const particlesLoaded = useCallback(async (container: Container | undefined) => 
                         value: "#000",
                     },
                 },
-                fpsLimit: 120,
+                fpsLimit: 800,
                 interactivity: {
                     events: {
                         onClick: {
@@ -113,7 +113,7 @@ const particlesLoaded = useCallback(async (container: Container | undefined) => 
                             quantity: 4,
                         },
                         repulse: {
-                            distance: 200,
+                            distance: 500,
                             duration: 0.4,
                         },
                     },
@@ -136,7 +136,7 @@ const particlesLoaded = useCallback(async (container: Container | undefined) => 
                             default: "bounce",
                         },
                         random: false,
-                        speed: 6,
+                        speed: .5,
                         straight: false,
                     },
                     number: {

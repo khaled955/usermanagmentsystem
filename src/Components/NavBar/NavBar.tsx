@@ -35,7 +35,7 @@ const debounce = <T extends (...args: any[]) => void>(func: T, wait: number) => 
  const debouncedSetFilteredValues = useCallback(
   debounce((value: string) => {
     setFilteredValues(value);
-  }, 300), // 300ms delay
+  }, 200), 
   [setFilteredValues]
 );
 

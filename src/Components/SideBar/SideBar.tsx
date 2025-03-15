@@ -42,17 +42,6 @@ const userInfoDecoded: UserDataDecoded | null = token ? jwtDecode(token) : null;
     </li>
 
 
-    <li>
-    <NavLink
-    
-  className={({ isActive }) =>
-    `w-full inline-block py-2 px-1 font-semibold ${isActive ? "bg-red-600 rounded-md" : ""}`
-  }
-  to="/dashboard/updateuser"
-  onClick={()=>{handleHide()}}
->        
-         <i className="fa-solid fa-user mr-1"></i>Update Users</NavLink>
-    </li>
 
 
 
